@@ -19,6 +19,8 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         number = Int.random(in: 0...9)
+
+//        if文の場合
 //        if number == 9{
 //            characterImageView.image = UIImage(named: "IoTMesh")
 //            backgroundImageView.image = UIImage(named: "bgBlue")
@@ -30,6 +32,7 @@ class ResultViewController: UIViewController {
 //            backgroundImageView.image = UIImage(named: "bgRed")
 //        }
         
+//        switch文の場合
         switch number{
         case 9:
             characterImageView.image = UIImage(named: "IoTMesh")
